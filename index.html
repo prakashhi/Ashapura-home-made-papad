@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashapura Papad Page</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Add your favorite font link here if you have one -->
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Ashpura Papad</h1>
+      <nav>
+        <ul>
+          <li><a href="About.html">About Us</a></li>
+          <li><a href="index.html">Home</a></li>
+
+        </ul>
+      </nav>
+      <div id="btn" onload="current()"></div>
+    </div>
+  </header>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Welcome to Ashpura homemade papad,We provide best product to the our customer.this website for only show
+        product and provide our product information to the customer</p>
+    </section>
+
+    <section id="products">
+      <h2>Our Products</h2>
+      <div class="product-grid">
+        <div class="product">
+          <img src="IMG_20230529_161008.jpg" alt="Product 1"
+            onclick="showDescription('ચોખાના પાપડ', '150Rs')">
+          <div id="pr-h">
+            <h2>ચોખાના પાપડ</h2>
+          </div>
+
+        </div>
+        <div class="product" onclick="fun1()">
+          <img src="1.jpg" alt="Product 2"
+            onclick="showDescription('ઘઉંના પાપડ', '150Rs')">
+          <div id="pr-h">
+            <h2>ઘઉંના પાપડ</h2>
+          </div>
+        </div>
+        <div class="product">
+          <img src="IMG_20230529_161518.jpg" alt="Product 2"
+            onclick="showDescription('ચોખાની સેવ', '150Rs')">
+          <div id="pr-h">
+            <h2>ચોખાની સેવ</h2>
+          </div>
+        </div>
+        <div class="product">
+          <img src="IMG_20240419_163210.jpg" alt="Product 2"
+            onclick="showDescription('ઘઉંની સેવ', '')">
+          <div id="pr-h">
+            <h2>ઘઉંની સેવ</h2>
+          </div>
+        </div>
+
+        <!-- Add more products as needed -->
+      </div>
+      <div id="product-description"
+        style="margin-top: 20px;  background-color: #fff;border-radius: 10px;padding: 1% 2%;">
+        Display
+      </div>
+    </section>
+    <div id="product-description" style="margin-top: 20px;"></div>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <!-- Add a contact form or contact information here -->
+      <p>Email: prakash398@prajapati@gmail.com</p>
+    </section>
+  </div>
+
+  <footer>
+    <li>About</li>
+  </footer>
+
+  <script src="script.js">
+  </script>
+
+</body>
+
+</html>
